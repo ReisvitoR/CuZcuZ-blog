@@ -1,0 +1,172 @@
+
+.special-elite-regular h1, h2, h3{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+.maven-pro-body {
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 5px;
+}
+.header{
+    background-color: rgb(248, 142, 28);
+    padding: 12px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+.post p{
+    margin: 10px 0px;
+}
+
+.branco{
+    color: white;
+}
+
+.menu, .logo{
+    padding: 10px;
+}
+
+.menu a,.menu a:visited{  
+    padding: 8px 12px; 
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu a:hover{
+    background-color: white;
+    color:rgb(248, 142, 28)
+}
+
+.container{
+    margin: 0 auto;
+    width: 920px;
+    padding: 20px;
+}
+.autor{
+    padding: 10px;
+    color:darkgoldenrod;
+    text-align: right;
+}
+.posts{
+    
+    width: 660px;
+    /*TODO float: left; */
+}
+.post{
+    height: auto;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+p {
+    text-align: left;
+}
+
+h2{
+    color: rgb(248, 142, 28);
+}
+.data-post{
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display:block
+    
+}
+.barra-lateral{
+    width: 240px;
+    /*TODO float: right; */
+}
+.rodape{
+    clear: both;
+    background-color:rgb(248, 142, 28);
+    padding: 15px;
+    
+}
+.rodape p{
+    color: white;
+    text-align: center;
+}
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.conteudo-lateral h3{
+    background-color: rgb(248, 142, 28);
+    color: white;
+    padding: 5px;
+}
+.post-noticias{
+    font-size: 0.85em;
+    padding: 10px;
+    border-bottom: 1px solid color lightgray;
+    
+}
+
+.post-noticias:Last-child{
+    border: none;
+}
+
+.post-image {
+    width: 250px;
+    float: left;
+}
+
+.post-text {
+    margin-left: 300px;
+}
+
+.post {
+    /* padding-bottom: 55px; */
+}
+
+.post-link{
+    text-align: right;
+    /* margin-top: 70px; */
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 200px 1fr 150px;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+header {
+    grid-row: 1;
+    grid-column: 1 / 2;
+}
+
+nav {
+    grid-row: 2;
+    grid-column: 1 / 2;
+}
+
+main {
+    grid-row: 2;
+    grid-column: 1;
+}
